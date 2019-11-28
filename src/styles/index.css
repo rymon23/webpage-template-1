@@ -1,0 +1,63 @@
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
+
+
+:root {
+  --page-bg-color-main: rgb(50, 47, 56);
+  --page-bg-color-header: rgba(0,0,0,0.92);
+  --page-bg-color-footer: rgba(0,0,0,0.92);
+  --page-color-header: cornsilk;
+  --page-color-footer: cornsilk;
+  --page-color-primary: black;
+  --page-color-secondary: black;  
+  --page-font-size-nav: 18px;
+  --page-font-family: monospace;
+  --page-button-border-radius: 10px;
+}
+
+html, body {
+  height: 100%;
+}
+body { 
+    margin: 0px;
+}
+.body-content {
+    height: 100%;
+}
+header {
+    min-height: fit-content;
+    background-color: var(--page-bg-color-header);
+    color: var(--page-color-header);
+}
+.main-content {
+    height: 100%;
+    background-color: var(--page-bg-color-main);
+    color: var(--page-color-primary);
+}
+footer {
+    min-height: fit-content;
+    background-color: var(--page-bg-color-footer);
+    color: var(--page-color-footer);
+}
+.static-width {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1280px;
+}
+a:visited{
+    color: inherit;
+}
+a, .no-text-dec{
+    color: inherit;
+    text-decoration-line: inherit;
+}
+a, .clicky {
+    cursor: pointer;
+}
+
+.flex-centered{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
